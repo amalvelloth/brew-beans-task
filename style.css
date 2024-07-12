@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  height: 120px;
+  background-color: #dc993c;
+  left: 0;
+  right: 0;
+  font-family: "Black Ops One", system-ui;
+}
+nav h1 {
+  font-size: 120px;
+  color: #301f13;
+}
+nav img {
+    margin: 0;
+    height: 110px;
+    width: 110px;
+}
+
+.caption {
+  height: 100%;
+  width: 100%;
+  background-color: #dc993c;
+  top: 0px;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #ecd076;
+}
+.main {
+    font-family: "Josefin Sans", sans-serif;
+}
+.main h1 {
+    font-size: 55px;
+}
+.main span {
+    font-weight: 700;
+}
+.main p {
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.content {
+  margin: 4.5rem 18.5rem 0;
+}
+
+#type {
+  height: 100%;
+  width: 100%;
+  background-color: #ecd076;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.type p {
+  font-size: 18px;
+}
+#type h1 {
+    font-size: 60px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 900;
+    text-shadow: 2px 3px 4px black;
+}
+
+#brand {
+  background-color: #ecd076;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#brand h1 {
+    font-size: 60px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 900;
+    text-shadow: 2px 3px 4px black;
+}
+.brand {
+  margin: 0 9rem;
+}
+
+#gallery {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  background-color: #ecd076;
+}
+#gallery h1 {
+    font-size: 60px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 900;
+    text-shadow: 2px 3px 4px black;
+}
+
+.gallery {
+  background-color: #dc993c;
+}
+.gallery img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 1rem;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.gallery .col-4 {
+  padding: 5px;
+}
+
+#contact {
+  background-color: #ecd076;
+}
+#contact h1 {
+    font-size: 60px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 900;
+    text-shadow: 2px 3px 4px black;
+}
+
+.cards img:hover {
+    box-shadow: 
+                0 2px 4px rgba(0, 0, 0, 0.1),
+                0 4px 8px rgba(0, 0, 0, 0.2),
+                0 8px 16px rgba(0, 0, 0, 0.3),
+                0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+form {
+    width: 100%;
+    border: 2px solid black;
+    padding: 2rem 10rem;
+    background-color: #DC993C;
+    border-radius: 10px;
+}
+
+.form-box {
+    width: 800px;
+}
+
+.form-control {
+    border: 2px black solid;
+}
+
+button {
+    background-color: #301F13;
+    color: white;
+    padding: 0.3rem 1.3rem;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+button:hover {
+    box-shadow: 
+                0 2px 4px rgba(0, 0, 0, 0.1),
+                0 4px 8px rgba(0, 0, 0, 0.2),
+                0 8px 16px rgba(0, 0, 0, 0.3),
+                0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    height: 200px;
+    background-color: #DC993C;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+}
